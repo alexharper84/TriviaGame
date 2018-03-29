@@ -38,7 +38,6 @@ $(document).ready(function() {
 // ----------------------------------------------------------------------
 // AJAX
 // ----------------------------------------------------------------------
-  // This function, generates HTML and Starts Counter
 
   $("body").on("click", ".start", function(event){
     generateHTML();
@@ -58,7 +57,7 @@ $(document).ready(function() {
   });
   $("body").on("click", ".reset", function(event){
     resetGame();
-  }); // Closes reset-button click
+  }); 
 });
 
 // ----------------------------------------------------------------------
