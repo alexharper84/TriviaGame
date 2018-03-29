@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+body{
+    background: black url("http://www.westcoastgermanshepherds.com/Adult%20Dogs/Randy/dutchsieger3.jpg") no-repeat;
+   background-size: cover;
+}
+
+.blueBg {
+    background: #214769b3; 
+}
+.blueClr{
+    color: #82c4ff !important;
+}
+
+.blkBrdr{
+    border: 2px solid black;
+}
+
+.title-triv {
+    font-size: 4rem;
+}
+p {
+    font-size: 1.4rem;
+}
+
+button:hover{
+    color: #000 !important;
+}
+.btn-outline-secondary {
+    color: #7dc2ff !important;
+    border-color: #7dc2ff !important;;
+}
+.btn-outline-secondary:hover {
+    background-color: #7dc2ff !important;
+    color: #000 !important;;
+}
+
+.jumbotron{
+    opacity: .7;
+    font-size: 6rem;
+    text-align: center;
+    opacity: .7;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/* Typewriter Effect */
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/* Medium devices (tablets, less than 700px) */
+@media (max-width: 700px) {
+    body{
+        background: black url("http://www.westcoastgermanshepherds.com/Adult%20Dogs/Randy/dutchsieger3.jpg") no-repeat;
+        background-size: cover;
+
+    }
+    .title-triv {
+        font-size: 2rem;
+    }
+    p {
+        font-size: .8rem;
+    }
+}
