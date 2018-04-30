@@ -1,12 +1,12 @@
 @charset "utf-8";
 
 body{
-    background: black url("http://www.westcoastgermanshepherds.com/Adult%20Dogs/Randy/dutchsieger3.jpg") no-repeat;
+    background: black url("../../assets/images/randy.jpg") no-repeat;
    background-size: cover;
 }
 
 .blueBg {
-    background: #214769b3; 
+    background: #214769b3;
 }
 .blueClr{
     color: #82c4ff !important;
@@ -50,7 +50,7 @@ button:hover{
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: 
+  animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
